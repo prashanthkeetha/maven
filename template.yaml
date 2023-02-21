@@ -35,13 +35,6 @@ parameters:
       - /opt/apache-maven-3.8.4/bin/mvn
       - /opt/apache-maven-3.8.7/bin/mvn
       - /opt/apache-maven-3.9.0/bin/mvn
-  
-  
-pool: 
-  name: "Default"
-
-trigger:
-  - main
 
 stages:
   - stage: package
